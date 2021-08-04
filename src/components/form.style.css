@@ -1,0 +1,42 @@
+.Form{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-style:  solid;
+    background-color: rgb(117, 132, 145);
+    
+    
+}
+
+.aris{
+    background-color: rgb(209, 209, 214);
+    width: 50%;
+    
+    
+}
+
+.formstyle{
+    border-style: solid;
+}
+
+.input{
+    padding:10px;
+    width:300px;
+    background-color: rgb(255, 255, 255);
+    max-width: 90%;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    
+}
+
+.btn{
+    margin-top: 1rem;
+    padding: 10px 40px;
+    background: black;
+    color: azure;
+    text-transform: uppercase;
+    border: none;
+}
