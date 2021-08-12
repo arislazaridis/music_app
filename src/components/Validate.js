@@ -15,6 +15,7 @@ class Validate extends Component {
   }
 
   
+  //valid = '/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/' ;
 
 
   
@@ -36,42 +37,19 @@ class Validate extends Component {
             config: { headers: { 'Content-Type': 'multipart/form-data' } }
         })
       }
-    /*axios({
-        method: 'post',
-        url: "http://localhost/php_labs/contact.php",
-        data: {
-          username:this.state.username,
-          password:this.state.password,
-          email:this.state.email,
-        },
-        headers: {'Content-Type': 'multipart/form-data'  }*/
-        
-        //content-type': 'application/json
-        //'Content-Type': 'multipart/form-data'
-        /*
-        })
-        .then(function (response) {
-            //handle success
-            console.log(response);
-        })
-        .catch(function (response) {
-            //handle error
-            console.log(response);
-        });
-    }*/
-
-
+ 
    
 
 
 
   render() {
     return (
-      <div className="App">
+      <div className="form">
           <h2 style={{display:"flex", height:'10%'}}>REGISTER FORM</h2>
           <form action="contact.php">
                 <label>Username</label>
-                <input type="text" id="username" name="username" placeholder="username" value={this.state.username} onChange={e=>this.setState({username:e.target.value})}/>
+                <input type="text" id="username" name="username" placeholder="username" value={this.state.username} onChange={e=>this.setState({username:e.target.value})} />
+                
                 <div style={{color:"white" , padding:"10px"}}> 
                   {this.state.username==="" && "*Παρακαλώ συμπληρώστε το πεδίο"}
                 </div>
@@ -81,7 +59,8 @@ class Validate extends Component {
                   {this.state.password==="" && "*Παρακαλώ συμπληρώστε το πεδίο"}
                 </div>
                 <label>Email</label>
-                <input type="email" id="email" name="email" placeholder="email"  value={this.state.email} onChange={e=>this.setState({email:e.target.value})}/>
+                <input required type="email" id="email" name="email" placeholder="email"  value={this.state.email} onChange={e=>this.setState({email:e.target.value})}/>
+               
                 <div style={{color:"white" , padding:"10px"}}> 
                   {this.state.email==="" && "*Παρακαλώ συμπληρώστε το πεδίο"}
                 </div>

@@ -1,0 +1,37 @@
+.container {
+    
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 10px solid rgb(37, 36, 36);
+    border-bottom: 5px solid rgb(37, 36, 36);
+    background-color: rgb(75, 105, 133);
+    font-size: 25px;
+   
+}
+
+.logo {
+    width: 50px;
+    height: 60px;
+    
+    
+    
+}
+
+.items {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+   
+}
+.item {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.items :hover {
+color: rgb(171, 157, 255);
+}

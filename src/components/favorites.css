@@ -1,0 +1,57 @@
+
+.favorites{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.favorites .count{
+    background-color:white;
+    height:46px; 
+    color:#FFF; 
+    border-style: solid;
+     width:5%;  
+     text-align: center;
+     display: block;
+     color:black;
+     padding: .55em 0 0;
+     
+}
+
+.favorites .btndecr{
+    background-color:rgb(10, 85, 150); 
+    height:46px; 
+    color:#FFF; 
+    
+     width:3%;  
+     
+     display: block;
+     color: white;
+     text-decoration: none;
+     
+}
+
+.favorites .btnincr{
+    background-color:rgb(10, 85, 150); 
+    height:46px; 
+    color:#FFF; 
+   
+     width:3%;  
+     
+     display: block;
+     color: white;
+     text-decoration: none;
+}
+
+.btnfav{
+    background-color:rgb(39, 149, 9); 
+    height:46px; 
+    color:#FFF; 
+    width:10%;
+    display:inline-block;
+    justify-content: flex-start;
+    margin-left: 20px;
+    font-size: 20px;
+ 
+    
+}

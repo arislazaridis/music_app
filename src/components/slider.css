@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700');
+
+.slider{
+        width: 100%;
+        
+}
+.photo{
+    
+        max-width:20%;
+        height:auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        background-color: #009E4F;
+        border-style:outset;
+        
+
+}
+.button_back{
+        width: 50%;  
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: space-evenly;
+        border-style:initial;
+        
+        
+        
+}
+
+.price{
+        
+        width: 50%;  
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 20%;
+        padding-top: 20px;
+        color:whitesmoke;
+        font-size: 10 px;
+        
+}
+
+
+.button_next{
+        width: 50%;  
+        background-color: #313131;
+        display: flex;
+        
+}
+
+.youtube{
+        
+        
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+        margin-left: auto;
+        margin-right: auto;
+        width: 500%;
+        align-items: center;
+        background-color: black;
+        ;
+        
+
+}
+
+.a{color: #E7484F}
+.b{color: #F68B1D}
+.c{color: #FCED00}
+.d{color: #009E4F}
+.e{color: #00AAC3}
+.f{color:  #732982}
+
+
+.container{
+  margin-top: 150px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.rainbow{
+  background-color: #343A40;
+  border-radius: 4px;  
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+  
+}
+
+.rainbow-1:hover{
+   background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+   animation:slidebg 5s linear infinite;
+}
+
+.rainbow-2:hover{
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+  animation:slidebg 2s linear infinite;
+}
+
+.rainbow-3:hover{
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+  animation:slidebg 2s linear infinite;
+}
+
+.rainbow-4:hover{
+   background-image:     linear-gradient(
+      to right, 
+      #E7484F,
+      #F68B1D, 
+      #FCED00,
+      #009E4F,
+      #00AAC3,
+      #732982
+    );
+  animation:slidebg 2s linear infinite;
+}
+
+
+.rainbow-5:hover{
+   background-image:     linear-gradient(
+      to right, 
+      #E7484F,
+      #E7484F 16.65%,
+      #F68B1D 16.65%,
+      #F68B1D 33.3%,
+      #FCED00 33.3%,
+      #FCED00 49.95%,
+      #009E4F 49.95%,
+      #009E4F 66.6%,
+      #00AAC3 66.6%,
+      #00AAC3 83.25%,
+      #732982 83.25%,
+      #732982 100%,
+      #E7484F 100%
+     
+     
+     
+    );
+  animation:slidebg 2s linear infinite;
+}
+
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+
+.follow{
+  margin-top: 40px;
+}
+
+.follow a{
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+    
+.likeBtn{
+  
+  height:38px;
+  padding:0 30px;
+  font-size: 11px;
+  background-color: transparent;
+  border-radius: 6px;
+  display:inline-block;
+  justify-content: flex-start;
+  margin-left: 20px;
+  font-size: 20px;
+
+    
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
+        
+}

@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(66, 147, 147);
+}
+
+table,tr,td{
+    
+    text-align: center;
+    border: 1px solid black;
+    width:50%;
+    padding: 50;
+    background-color: hsl(166, 27%, 75%);
+    position: relative;
+    width: 50%;  
+    
+    margin:auto;
+    align-items: center;
+    justify-content: space-evenly;
+    border-style:unset;
+    box-shadow: 0 50px 50px rgb(91, 91, 101);
+    font-size: 20px;
+    
+
+}
+

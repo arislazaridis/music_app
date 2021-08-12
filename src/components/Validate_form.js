@@ -6,6 +6,7 @@ import axios from 'axios';
 
 
 
+
 //array
 //xisi gia labels, stoixeiwn formas
     const inputs = [
@@ -129,7 +130,7 @@ function Validate_form() {
 
 
     return (
-        
+        <section>
         <div className="Form" action="C:/xampp/htdocs/arisphp/htdocs/php_labs/contact.php" method={'POST'}>
             <h1>CREATE ACCOUNT</h1>
             <form onSubmit={onSubmit} >
@@ -156,6 +157,7 @@ function Validate_form() {
                             </p>
                             <div style={{color:"red" , padding:"10px"}}>
                            {error===input.name && "Ο κωδικος πρέπει να έχει τουλάχιστον 8χαρακτήρες" } 
+                           
                               
 
                             </div> 
@@ -165,8 +167,9 @@ function Validate_form() {
                 })}
             <button disabled={error!==""} className="btn" type="submit">submit</button>
             </form>  
-             
+            
         </div>
+        </section>
         
     )
 
