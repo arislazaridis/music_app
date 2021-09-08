@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(21, 78, 78);
+    /* /*background-color: rgb(66, 147, 147); */
+}
+
+table,tr,td{
+    
+    text-align: center;
+    border: 1px solid black;
+    width:50%;
+    padding: 15px;
+    background-color: rgb(194, 194, 194);
+    position: relative;
+    width: 50%;  
+    
+    margin:auto;
+    align-items: center;
+    justify-content: space-evenly;
+    border-style:unset;
+    box-shadow: 0 50px 50px rgb(0, 0, 0);
+    font-size: 20px;
+    
+
+}
+
+.songs{
+    background-color: rgb(23, 44, 40);
+}
+
+.title{
+    background-color: rgb(255, 255, 255);
+    
+}

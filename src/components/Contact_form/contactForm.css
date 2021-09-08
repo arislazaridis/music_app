@@ -3,12 +3,13 @@ section{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
+ 
     
 }
 
 
 section{
-    background-color: white;
+    background-color: rgb(10, 45, 40);
     position: relative;
     display:flex;
     flex-direction: column;

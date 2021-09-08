@@ -1,5 +1,6 @@
 import React from 'react'
 import "./infinite.css"
+import Slider from '../../components/Slider';
 
 function Infinite() {
     return (

@@ -1,12 +1,13 @@
 
 
-import Validate from './components/Validate';
+import Validate from '././components/Sign/Validate'
 import Nav from './components/Nav';
-import Home from './components/Home';
+import Home from '././components/Pages/Home';
 import Header from './components/Header';
-import ContactForm from './components/ContactForm';
-import Lemonade from './components/Lemonade';
-import HappierBillie from './components/HappierBillie';
+import ContactForm from './components/./Contact_form/ContactForm';
+import Lemonade from './components/./CDs/Lemonade';
+import HappierBillie from './components/./CDs/HappierBillie';
+import Infinite from './components/CDs/Infinite';
 
 import React from "react";
 import {
@@ -15,7 +16,7 @@ import {
   Route,
   Link
 }from "react-router-dom";
-import Infinite from './components/Infinite';
+
 
 function App() {
   return (

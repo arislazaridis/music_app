@@ -4,11 +4,11 @@ import billie from "../assets/Billie-vinyl2.jpg";
 import metallica from "../assets/metallica4.jpeg";
 import deeppurple from "../assets/deeppurple.jpeg";
 import "./slider.css";
-import Favorites from './Favorites';
+import Favorites from './Favorites_cds/Favorites';
 import axios from 'axios';
-import Lemonade from './Lemonade';
-import Infinite from './Infinite';
-import HappierBillie from './HappierBillie';
+import Lemonade from './CDs/Lemonade';
+import Infinite from './CDs/Infinite';
+import HappierBillie from './CDs/HappierBillie';
 
 
 
@@ -105,10 +105,7 @@ const Slider = (props) => {
 
     }
 
-   /*const Iconfav = ()=>{
-        setIconColor("grey")
-        
-    } */
+  
     
     console.log(images)
     
@@ -141,9 +138,11 @@ const Slider = (props) => {
                 </div>
                          <h1 className="price">Price: {images[position].price}</h1>
                          
+                         <div style={{paddingBottom: "10px"}}>
                          <button className="likeBtn" onClick={function(event){handlequant(event);  /*Iconfav(); */}} style={{backgroundColor:iconColor}} >Add to Favorites
                             
                          </button>
+                         </div>
                          <Favorites/>
                          
                          

@@ -1,11 +1,11 @@
 import React from 'react'
-import Slider from './Slider'
+import Slider from '../../components/Slider'
 import "./HappierBillie.css"
 
 function HappierBillie() {
     return (
         <div>
-            <table>
+            <table className="title">
                 <h1 ><a href="https://www.youtube.com/watch?v=7AS9r_E0PY4&list=OLAK5uy_lkHngwJMHlqHsz7ckye6lwrhYmyFTMvM4">Happier Than Ever</a></h1>
             </table>
             <table>
@@ -17,7 +17,7 @@ Primarily a downtempo pop record, Happier Than Ever is characterized by subdued 
 The piece then transitions into "Overheated", the tenth track, which samples the production of its predecessor and explores stardom in the era of social media.The eleventh track "Everybody Dies", is an alt-pop ballad, driven by dark synths and light guitar strumming, with "Eilish's voice again standing out".The twelfth track, "Your Power", is a soft acoustic ballad about sexual abuse and being taken advantage of by your partner.The thirteenth track, "NDA" discusses the lack of privacy in her life due to her rise in fame over a dark electropop beat which transitions into the fourteenth track "Therefore I Am", which is lyrically about dismissing the haters and critics.The fifteenth track, "Happier Than Ever", is a rock opera song.It has been described as "a mopey breakup song", before breaking into "an electric-guitar-driven rager", while the rest of the tracks "bare different kinds of catharsis, teetering between sexy, electronic beats and warm folkiness, reminiscent of her earliest music."It has been dubbed an album highlight.</p>
             </table>
             
-            <table>
+            <table className="songs">
          
                 <tr style={{color:"black"}}><td ><strong>Title</strong></td><td><strong>Length</strong></td></tr>
                 <tr><td >1	- Getting Older</td><td>4:04</td></tr>

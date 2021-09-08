@@ -1,12 +1,13 @@
 import React from 'react'
-import Slider from './Slider'
-import Favorites from './Favorites';
+import Slider from '../../components/Slider'
+import Favorites from '../Favorites_cds/Favorites';
+
 import './Home.css';
 
 function Home() {
     return (
         <div>
-               <table style={{color:"black" ,fontSize:"20px" }}> 
+               <table style={{color:"black" ,fontSize:"20px",fontFamily:"Snell Roundhand, cursive" }}> 
 
 
                Από το 1998, το <strong>Vinyl Shop</strong> αποτελεί τόπο συνάντησης των μουσικόφιλων της Αθήνας.

@@ -1,8 +1,8 @@
 import React from 'react'
 import "./contactForm.css"
-import phone from "../assets/phone.jpg";
-import email from "../assets/email.jpg";
-import location from "../assets/location.jpg";
+import phone from "../../assets/phone.jpg";
+import email from "../../assets/email.jpg";
+import location from "../../assets/location.jpg";
 
 
 

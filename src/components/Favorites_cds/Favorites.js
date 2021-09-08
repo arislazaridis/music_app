@@ -1,7 +1,7 @@
 import React from 'react'
 import {useState} from 'react';
 import "./favorites.css"
-import Slider from './Slider';
+import Slider from '../Slider';
 
 
 function countInitial(){
